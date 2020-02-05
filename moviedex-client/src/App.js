@@ -48,7 +48,7 @@ class App extends React.Component {
           <Movies lista={this.state.peliculas} />
         </div>
         <div>
-          <NewMovie />
+          <NewMovie id="new" />
         </div>
       </div>
     );
